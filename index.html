@@ -7,11 +7,38 @@
     <link rel="stylesheet" href="./src/style.css" />
   </head>
   <body>
+    <div class="images">
+      <img src="" alt="" class="small sm1" />
+      <img src="" alt="" class="small sm2" />
+      <img src="" alt="" class="small sm3" />
+      <img src="" alt="" class="small sm4" />
+    </div>
     <div class="container">
       <button onclick="prevImage()">Prev</button>
       <img class="fade-in" src="" alt="" id="image" />
       <button onclick="nextImage()">Next</button>
     </div>
+
+    <svg id="text0" viewBox="0 0 300 300" width="300" height="300">
+      <path id="circle" d="M 150, 150 m -100, 0 a 100,100 0 1,1 200,0 a 100,100 0 1,1 -200,0" fill="none" />
+      <text font-size="20" fill="black">
+        <textPath href="#circle" startOffset="50%" text-anchor="middle">papaya</textPath>
+      </text>
+    </svg>
+
+    <svg id="text1" viewBox="0 0 300 300" width="300" height="300">
+      <path id="circle" d="M 150, 150 m -100, 0 a 100,100 0 1,1 200,0 a 100,100 0 1,1 -200,0" fill="none" />
+      <text font-size="20" fill="black">
+        <textPath href="#circle" startOffset="50%" text-anchor="middle">mango</textPath>
+      </text>
+    </svg>
+
+    <svg id="text2" viewBox="0 0 300 300" width="300" height="300">
+      <path id="circle" d="M 150, 150 m -100, 0 a 100,100 0 1,1 200,0 a 100,100 0 1,1 -200,0" fill="none" />
+      <text font-size="20" fill="black">
+        <textPath href="#circle" startOffset="50%" text-anchor="middle">pera</textPath>
+      </text>
+    </svg>
     <script src="./src/main.js"></script>
   </body>
 </html>

@@ -14,6 +14,12 @@ img {
   /* animation: loop 7s infinite linear; */
 }
 
+#image {
+  padding: 25px;
+  border: 1px solid gray;
+  border-radius: 50%;
+}
+
 .fade-in {
   opacity: 1;
 }
@@ -29,4 +35,50 @@ img {
   to {
     transform: rotate(360deg);
   }
+}
+
+.small {
+  width: 20%;
+  margin: 20px;
+}
+
+.sm1 {
+  position: absolute;
+  top: 5%;
+  left: 0;
+}
+
+.sm2 {
+  position: absolute;
+  top: 60%;
+  left: 70%;
+}
+.sm3 {
+  position: absolute;
+  top: 60%;
+  left: 0;
+}
+.sm4 {
+  position: absolute;
+  top: 5%;
+  left: 70%;
+}
+
+#text0 {
+  position: absolute;
+  top: 60%;
+  left: 25%;
+  rotate: 210deg;
+}
+
+#text1 {
+  position: absolute;
+  top: 55%;
+  right: 25%;
+}
+
+#text2 {
+  position: absolute;
+  top: 30%;
+  left: 30%;
 }
